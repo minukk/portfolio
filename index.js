@@ -28,7 +28,7 @@ function cssLoop() {
   cssLogo.style.left = `${targetX}px`;
   cssLogo.style.top = `${targetY}px`;
   
-  cssDegree += 0.7;
+  cssDegree += 0.6;
   requestAnimationFrame(cssLoop);
 }
 
@@ -40,7 +40,7 @@ function jsLoop() {
   jsLogo.style.left = `${targetX}px`;
   jsLogo.style.top = `${targetY}px`;
   
-  jsDegree += 0.9;
+  jsDegree += 0.7;
   requestAnimationFrame(jsLoop);
 }
 
@@ -52,7 +52,7 @@ function reactLoop() {
   reactLogo.style.left = `${targetX}px`;
   reactLogo.style.top = `${targetY}px`;
   
-  reactDegree += 1.0;
+  reactDegree += 0.8;
   requestAnimationFrame(reactLoop);
 }
 
