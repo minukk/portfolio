@@ -28,7 +28,7 @@ function cssLoop() {
   cssLogo.style.left = `${targetX}px`;
   cssLogo.style.top = `${targetY}px`;
   
-  cssDegree += 0.6;
+  cssDegree += 0.7;
   requestAnimationFrame(cssLoop);
 }
 
@@ -52,7 +52,7 @@ function reactLoop() {
   reactLogo.style.left = `${targetX}px`;
   reactLogo.style.top = `${targetY}px`;
   
-  reactDegree += 0.8;
+  reactDegree += 0.7;
   requestAnimationFrame(reactLoop);
 }
 
