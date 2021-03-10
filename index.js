@@ -16,7 +16,7 @@ function htmlLoop() {
   htmlLogo.style.left = `${targetX}px`;
   htmlLogo.style.top = `${targetY}px`;
   
-  htmlDegree += 0.5;
+  htmlDegree += 0.4;
   requestAnimationFrame(htmlLoop);
 }
 
@@ -28,7 +28,7 @@ function cssLoop() {
   cssLogo.style.left = `${targetX}px`;
   cssLogo.style.top = `${targetY}px`;
   
-  cssDegree += 0.7;
+  cssDegree += 0.5;
   requestAnimationFrame(cssLoop);
 }
 
@@ -40,7 +40,7 @@ function jsLoop() {
   jsLogo.style.left = `${targetX}px`;
   jsLogo.style.top = `${targetY}px`;
   
-  jsDegree += 0.7;
+  jsDegree += 0.6;
   requestAnimationFrame(jsLoop);
 }
 
