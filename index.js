@@ -2,6 +2,7 @@ const htmlLogo = document.querySelector('.logo__html');
 const cssLogo = document.querySelector('.logo__css');
 const jsLogo = document.querySelector('.logo__js');
 const reactLogo = document.querySelector('.logo__react');
+const projectImg = document.querySelector('.project__img');
 let htmlDegree = 0;
 let cssDegree = 0;
 let jsDegree = 0;
